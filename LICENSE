@@ -199,3 +199,9 @@
    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
    See the License for the specific language governing permissions and
    limitations under the License.
+   java -jar ~/Downloads/skills-service-1.8.10.jar \
+   --spring.datasource.url=jdbc:postgresql://<host>:5432/skills \
+   --spring.datasource.username=<username> \
+   --spring.datasource.password=<pass>
+   java -Xmx2G -Xms2G -jar ~/Downloads/skills-service-1.8.10.jar
+   
